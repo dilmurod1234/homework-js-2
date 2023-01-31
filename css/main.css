@@ -1,0 +1,79 @@
+::-ms-reveal {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #F3F4F8;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.content{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.form-input{
+    width: 400px;
+    position: relative;
+}
+.password-input{
+    padding: 20px 15px 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+input{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    caret-color: #52AD94;
+    border: none;
+    outline: none;
+}
+.unlock-img{
+    position: absolute;
+    top: 335px;
+    margin-left: 5px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: gray
+}
+.password-img{
+    position: absolute;
+    top: 340px;
+    right: 570px;
+    cursor: pointer;
+}
+.hide-img{
+    display: none;
+    position: absolute;
+    top: 340px;
+    right: 570px;
+}
+.hide-img-1{
+    display: block;
+}
+.validation-text{
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text{
+    color: red;
+}
+.text1{
+    color: #E5A661;
+}
+.text2{
+    color: #52AD94;
+}
