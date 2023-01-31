@@ -39,7 +39,7 @@ input{
 }
 .unlock-img{
     position: absolute;
-    top: 335px;
+    top: 325px;
     margin-left: 5px;
 }
 .line{
@@ -50,14 +50,14 @@ input{
 }
 .password-img{
     position: absolute;
-    top: 340px;
+    top: 330px;
     right: 570px;
     cursor: pointer;
 }
 .hide-img{
     display: none;
     position: absolute;
-    top: 340px;
+    top: 330px;
     right: 570px;
 }
 .hide-img-1{
